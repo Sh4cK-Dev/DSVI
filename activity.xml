@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Esto es una calculadora"
+        android:textSize="50px"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca primer numero"
+        android:id="@+id/txtNum1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca segundo numero"
+        android:id="@+id/txtNum2"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Elija la operacion a realizar"
+        android:textSize="50px"/>
+
+    <Spinner
+        android:id="@+id/spn_opciones"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <CheckBox
+        android:id="@+id/chk_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Resultado"
+        android:onClick="RealizarOperaciones"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblRes"
+        android:textSize="50px"/>
+
+
+
+</LinearLayout>
+
+</LinearLayout>
