@@ -19,6 +19,7 @@
            android:adjustViewBounds="true"
            app:shapeAppearance="@style/roundedImageView"
            app:srcCompat="@drawable/food"></com.google.android.material.imageview.ShapeableImageView>
+
    </RelativeLayout>
 
     <EditText
@@ -40,6 +41,51 @@
         android:background="@drawable/rounded_edit_text"
         />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/relativeLayout"
+        >
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="180dp"
+            android:background="@drawable/color1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fast Food"
+            android:textColor="#534126"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#878383"
+            android:text="Only today this fast food offer"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="150dp"
+            android:gravity="center"
+            android:background="@drawable/btn_uno"
+            android:textColor="@drawable/txt_btn_uno"
+            android:text="$5.00"
+            />
+    </LinearLayout>
 
 </RelativeLayout>
